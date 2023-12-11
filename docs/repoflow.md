@@ -19,6 +19,6 @@ gitGraph
     commit id: "👓" tag: "more review"
     checkout feature
     checkout main
-    merge feature type: HIGHLIGHT tag: "Merge"
+    merge feature type: HIGHLIGHT tag: "Merge, close issue. close branch"
 
 ```
