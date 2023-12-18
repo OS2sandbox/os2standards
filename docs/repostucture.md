@@ -21,14 +21,6 @@ mindmap
         Standard+Custom expansion2
     deploy["DEPLOYMENTS
     Templates to deploy the product to different platforms"]
-        Containerized
-            Kubernetes
-                helm
-            Docker 
-                docker compose
-            
-        Native
-            ansible playbook
-            powershell
-
-```
+     Base
+     Variants
+     Environments
