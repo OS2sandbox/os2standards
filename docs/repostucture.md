@@ -16,11 +16,13 @@ mindmap
     How to deploy, run and develop"]
     conf[" 🔧 CONFIGURATIONS
     Templates to configure the product to different scenarios"]
-        Standard
-        Standard+Custom expansion1
-        Standard+Custom expansion2
-    deploy["DEPLOYMENTS
+        Baseline
+        Baseline+Variant1
+        Baseline+Expansion2
+    deploy["📥 DEPLOYMENTS
     Templates to deploy the product to different platforms"]
      Base
      Variants
      Environments
+    shared["🔁 SHARED
+    Shared user-content like forms, scripts. Easy to clone and participate for contributors"]
