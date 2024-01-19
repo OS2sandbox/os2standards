@@ -1,5 +1,7 @@
 # Reference deployment repository structure
 ## With examples
+
+```
 .
 ├── local-deployment
 │   ├── native
@@ -28,3 +30,4 @@
     └── argocd
         ├── app.yaml
         └── project.yaml
+```
