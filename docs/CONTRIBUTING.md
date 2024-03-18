@@ -1,62 +1,80 @@
 
-# Contribution guidelines for *OS2produkt*
+# Contributing to OS2 governed Project
 
-If you want to contribute to *OS2produkt*, we ask you to follow these guidelines.
+Welcome to our open-source project! We appreciate your interest in contributing. This guide outlines how you can get involved and make a positive impact. 
 
-## Reporting bugs
-If you have encountered a bug in *OS2produkt*, please check if an issue already exists in the list of existing [issues](https://os2web.atlassian.net/), if such an issue does not exist, you can create one [here](https://os2web.atlassian.net/). When writing the bug report, try to add a clear example that shows how to reproduce said bug.
+## Getting Started
 
-## Adding new features
-Before making making changes to the code, we advise you to first check the list of existing [issues](https://os2web.atlassian.net/) for OS2produkt to see if an issue for the suggested changes already exists. If such an issue does not exist, you can create one [here](https://os2web.atlassian.net/). Creating an issue gives an opportunity for other developers to give tips even before you start coding. If you are in the early idea phase, or if your feature requires larger changes, you can discuss it with the [projects coordination group](https://os2.eu) or by [contacting OS2 directly](https://os2.eu/kontakt) to make sure you are heading in the right direction.
+1. **Repository Location** : Our primary code repository resides within an OS2-managed GitHub organization. **Maintainers and Teams** :
 
-### Code style
-To keep the code clean and readable, *Please include links to coding standards and tools used:*
+* Each repository has a team of maintainers. These maintainers can be vendors or well-trained developers/users.
+* A project coordinator oversees issues, milestones, and delegation on GitHub. The availability of project budget determines how these roles are filled.
 
-Whenever a branch is pushed or a pull request is made, the code will be checked in CI by the tools mentioned above, so make sure to install these tools and run them locally before pushing branches/making PRs.
+1. **Documentation** :
 
-### Forking the repository
-In order to implement changes to *OS2produkt* when you do not have rights for the required repository, you must first fork the repository. Once the repository is forked, you can clone it to your local machine.
+* We maintain documentation in a separate repository under the same organization.
+* This documentation covers both usage instructions and guidelines for development and contributions.
+* Our documentation repository automatically builds a searchable documentation site using GitHub Actions. You can find a simple template for this purpose
 
-### Making the changes
-On your local machine, create a new branch, and name it like:
-- `feature/some-new-feature`, if the changes implement a new feature
-- `issue/some-issue`, if the changes fix an issue
+1. **Reusable Projects** :
 
-Once you have made changes or additions to the code, you can commit them (try to keep the commit message descriptive but short). If an issue exists in the issue list for the changes you made, be sure to format your commit message like `"Fixes #<issue_id> -- description of changes made`, where `<issue_id>"` corresponds to the number of the issue on Jira or GitHub. To demonstrate that the changes implement the new feature/fix the issue, make sure to also add tests.
+* Our projects are designed to be reusable, well-structured, and compliant with best practices.
 
-### Making a pull request
-If all changes have been committed, you can push the branch to your fork of the repository and create a pull request to the `master` branch of the *OS2produkt* repository. Your pull request will be reviewed, if applicable feedback will be given and if everything is approved, it will be merged.
 
-### Reviews on releases
+## How to Contribute
 
-All pull requests will be reviewed before they are merged to a release branch. As well as being reviewed for functionality and following the code style they will be checked with the steering committee and/or the coordination group for the project.
-## Setting Up the Development Environment
+_We follow the **GitHub Flow** to deliver full transparency and simple collaboration in the development process. **GitHub flow** is a lightweight, branch-based workflow. It’s not just for developers; it’s useful for everyone involved in the project._
 
-1. **Clone the repository**: Use the command `git clone <repository-url>` to clone the repository to your local machine.
 
-## Contributing using GitHub and the git command line client.
+### 1️⃣ Create an issue
+_Issues serve as the starting point for proposing changes or reporting problems_
 
-### Guides on how to follow our Contribution guidelines using GitHub. 
+- Start by checking our issue tracker for similar issues and solutions, before adding a new issue.
+ If your solution, feature og task is not allready present in the issue tracker, [create a new issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) and describe the change in the project you want to address.
 
-## Creating an Issue
+- Participate in a conversation via the issue to help shape the potential solution to the issue.
 
-1. **Navigate to the issues tab**: In the GitHub repository, navigate to the 'Issues' tab.
-2. **Create a new issue**: Click on 'New issue' and fill out the title and description with the relevant details of the issue.
+- If the conversation ends with a descission by the project owners and maintainers, that some work should be done, open up a new branch for the changes. This allows you to work on changes without affecting the rest of the project. Link the branch to the issue, to make it easy to understand the rationale behind the work being done in the project.
 
-## Creating a Branch
+### 2️⃣ Make Changes
 
-1. **Create a new branch**: Use the command `git checkout -b <branch-name>` to create a new branch. The branch name should be descriptive of the issue you are working on.
+* On your branch, make the desired changes to the repository.
+* Commit and push your changes, giving each commit a descriptive message.
+* Your branch serves as a safe space for making changes.
 
-## Making Changes
+1. **Review and Collaborate** :
 
-1. **Make your changes**: Make the necessary changes to the codebase.
-2. **Stage your changes**: Use the command `git add .` to stage your changes.
-3. **Commit your changes**: Use the command `git commit -m "<commit-message>"` to commit your changes. The commit message should be descriptive of the changes made.
+* Collaborators can review your work on the branch.
+* Continue making, committing, and pushing changes until you’re ready for feedback.
 
-## Creating a Pull Request (PR)
+1. **Pull Request (PR)** :
 
-1. **Push your changes**: Use the command `git push origin <branch-name>` to push your changes to the remote repository.
-2. **Create a PR**: Navigate to the 'Pull requests' tab in the GitHub repository and click on 'New pull request'. Select your branch from the dropdown and fill out the title and description with the relevant details of the changes made.
-3. **Submit the PR**: Click on 'Create pull request' to submit the PR for review.
+* When you’re ready, submit a pull request from your branch to the main repository.
+* Maintainers will review your work, provide feedback, and merge it into the default branch.
 
-Remember to always pull the latest changes from the main branch before starting work on a new issue.
+ **Prerequisites** : To follow GitHub flow, you’ll need a GitHub account and a repository. If you haven’t already, create an account on GitHub. Then, create or find a repository to contribute to.
+
+1. **Fork and Branch** :
+
+* Fork our repository to your own GitHub account.
+* Create a new branch for your contribution.
+
+1. **Make Changes** :
+
+* Follow the guidelines provided in the issue description.
+* Make your changes, whether it’s code improvements, bug fixes, or new features.
+
+1. **Pull Request** :
+
+* Submit a pull request (PR) from your branch to our main repository.
+* Our maintainers will review your PR and provide feedback.
+
+## Documentation
+
+For more detailed information, refer to our complete documentation. It covers everything from setting up your development environment to contributing effectively.
+
+Thank you for being part of our community! 🎉
+
+---
+
+Feel free to adapt this template to your specific project needs. If you have any additional requirements or questions, feel free to ask!
