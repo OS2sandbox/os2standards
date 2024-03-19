@@ -69,6 +69,9 @@ _Issues serve as the starting point for proposing changes or reporting problems_
 * Submit a pull request (PR) from your branch to our main repository.
 * Our maintainers will review your PR and provide feedback.
 
+## Auto Merge - Fast Track PR
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/automatically-merging-a-pull-request
+
 ## Documentation
 
 For more detailed information, refer to our complete documentation. It covers everything from setting up your development environment to contributing effectively.
