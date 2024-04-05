@@ -1,25 +1,47 @@
-# Implementering af styringskriterier
+# ✅ Implementering af styringskriterier
 
 ##### 🇬🇧 [Read in english](../docs/governance_implementation_advice_en.md)
 
-_[OS2's governance model](https://www.os2.eu/governancemodellen) er oprindeligt skrevet til et ikke kode-nært publikum. For at uddybe og gøre de opridsede mål mere operationelle er denne guide en række implementeringsmetoder til hurtigt og nemt at komme i gang med at være compliant_
+_[OS2's governance model](https://www.os2.eu/governancemodellen) opstiller nogle overordnede kriterier der skal overholdes for at  
 
-## Kom godt i gang
-_Sådan kommer du i gang med at sikre at dit projekt er kompatibelt med [OS2's governance model](https://www.os2.eu/governancemodellen)_
+er oprindeligt skrevet til et ikke kode-nært publikum. For at gøre modellens kriterier mere operationelle beskriver denne guide et simpelt fundament, der gør det hurtigt og nemt at komme i gang med et projekt som overholder kriterierne_
 
-- Alt kildekode og dokumentation til projektet placeres i repositorier under en GitHub organisation der er ejet af OS2.
+## 🚀 Kom godt i gang
 
-- Udvikling af ny kildekode og dokumentation følger et [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow)
+### ✨  Start og træn en arbejdsgruppe til at styre og vedligeholde projektet.
+* OS² bruger i skrivende stund GitHub til at hoste kildekode og dokumentation og til at facilitere samarbejdet omkring projektet. 
 
-- Dokumentation, der både beskriver anvendelse, men også hvordan man hurtigt kommer i gang med at udvikle og bidrage, placeres i et dokumentations repositorie under samme organisation, og bygger automatisk et søgbart dokumentations site. En simpel template til dette findes her: https://github.com/OS2offdig/OS2-docs-template
+    ▶️ [Youtube - What is GitHub, how to use it, benefits of GitHub](https://www.youtube.com/watch?v=BUE2LaSzijM)  | [🐱 GitHub Skills - Interactive courses](https://skills.github.com/) | [🪟 Microsoft Learn - Build community-driven software projects on GitHub](https://learn.microsoft.com/da-dk/training/paths/build-community-driven-projects-github/)
 
-- Hvert repo har et team af maintainers, teamet kan besættes af leverandører eller tilstrækkeligt trænede udviklere/anvendere. 
+### ✨  Kontakt OS² og få oprettet projektet i [OS²sandkassen](https://github.com/OS2sandbox)
+- Kontaktinfo mail: os2@os2.eu
 
-- Hver projekt har en projekt-koordinator der holder styr på og delgerer issues og opdeler dem i milestones på GitHub. Det tilgængelige projekt-budget dikterer hvordan disse roller besættes.
+### ✨  Beskriv projektet og diskuter forslag og ændringer i [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues)
+- Anvend [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues) til at binde dialogen sammen med løsningerne og kildekoden
 
-- Projekterne opbygges som genbrugelige, veldokumenterede services der kommunikerer ind og ud via åbne standardprotokoller. Forretningslogik, standardkommuniakationskode og service orkestrering placeres i selvstændige overskuelige moduler sammen med dokumentation og udrulningsmetoder i kode. På den måde sænkes barren for at udvikle en exit strategi og åbne op for leverandørsamarbejder. Et PoC på en skabelon til dette er tilgængelig her-> https://github.com/OS2sandkasse/dev-polyglot-microservices
+### ✨  Opbyg projektets arkitektur i dialog med OS2 sekretariatet
+* OS2 prioriterer genbrug af veldokumenterede services der kommunikerer via åbne standardprotokoller. Et simpelt eksempel er tilgængelig her-> https://github.com/OS2sandkasse/dev-polyglot-microservices.
+
+### ✨  Indarbejd og håndhæv en fast arbejdsgang for bidrag
+-  Ved hjælp af [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow)
 
 
-- Der bygges automatiskt container-images af dem, hver gang der er godkendt en pull-request og ny, testet kode merges in i hoved branchen.
-En færdig skabelon til dette er ikke tilgængelig, men der kan hentes inspiration i denne PoC -> https://github.com/OS2sandkasse/dev-polyglot-microservices/blob/main/.github/workflows/build.yml
+### Automatisering
+
+✨  Opsæt et automatiskt bygget, søgbart dokumentations site. En simpel template til at komme i gang med dette kan findes her: https://github.com/OS2offdig/OS2-docs-template
+
+
+✨  Opsæt automatiske byg af container-images direkte i repositoriet, hver gang der er godkendt en pull-request og ny, testet kode merges in i hoved branchen. En færdig skabelon til dette er ikke tilgængelig, men der kan hentes inspiration i denne PoC -> https://github.com/OS2sandkasse/dev-polyglot-microservices/blob/main/.github/workflows/build.yml
+
+✨ compose
+
+💫
+
+🌼
+
+☀️
+
+🔆
+
+🌟 dependencies - https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide
 
